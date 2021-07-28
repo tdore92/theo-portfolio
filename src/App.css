@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+.test{
+  color: brown;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name {
+  font-size: 7em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#show:hover + #hidden {
+  display: block;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
   }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
+
+.body-font {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.flexbox-container-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-images {
+  
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.devicons {
+  font-size: 3rem;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.devicon-div {
+  border: 1px solid #ffffff;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.github-icon {
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yt-image {
+  width: 320px;
 }
+
+.flexbox-item {
+width: 50%;
+margin:10px;
+background-color: rgb(255, 255, 255);
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-item-2 {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* quick reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(49, 48, 48, 0.849);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 130px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+@import '~bulma/css/bulma.css';
