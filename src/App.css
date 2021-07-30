@@ -7,6 +7,11 @@
   font-size: 7em;
 }
 
+.href-links {
+  text-decoration:none;
+  color: inherit;
+}
+
 #show:hover + #hidden {
   display: block;
 }

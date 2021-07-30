@@ -24,18 +24,8 @@ function App() {
             <br />
 
 
-            {/*Icon Links*/}
-            <section class="flexbox-container">
-              <div className="devicons level">
-                <div class="grow">
-                  <a href="https://www.linkedin.com/in/theo-wyzgowski-66191a205/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain"></i></a>
-                </div>
-
-                <div class="grow">
-                  <a href="https://github.com/tdore92" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original"></i></a>
-                </div>
-              </div>
-            </section>
+            
+            
           </div>
         </section>
 
@@ -184,7 +174,7 @@ function App() {
               </a>
               <h2 className="is-size-5">Software Development</h2>
               <hr />
-              <p>I'm currently developing YouWatch- a blog based around showing and and expressing your internet viewing habits. Click the icon to follow its progress!</p>
+              <p>I'm currently developing YouWatch- a blog based around showing and expressing your internet viewing habits. Click the icon to follow its progress!</p>
             </div>
           </div>
 
@@ -196,8 +186,25 @@ function App() {
             <h2 className="is-size-2">Contact</h2>
             <hr/>
             <p className="is-size-3">theowyz@btinternet.com</p>
+
+            
+
+            {/*Icon Links*/}
+            <section class="flexbox-container">
+              <div className="devicons level">
+                <div class="grow">
+                  <a href="https://www.linkedin.com/in/theo-wyzgowski-66191a205/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain"></i></a>
+                </div>
+
+                <div class="grow">
+                  <a href="https://github.com/tdore92" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original"></i></a>
+                </div>
+              </div>
+            </section>
           </div>
         </section>
+
+          
       </body>
     </div>
   )
