@@ -42,7 +42,7 @@
 
 .project-images {
   border: 5px solid rgb(0, 0, 0);
-  border-radius: 125px;
+  border-radius: 205px;
 }
 
 .devicons {
@@ -107,12 +107,12 @@ html {
 /* relevant styles */
 .img__wrap {
   position: relative;
-  height: 200px;
-  width: 257px;
+  height: 320px;
+  width: 320px;
 }
 
 .img__description_layer {
-  position: absolute;
+  position:absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -124,7 +124,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 130px;
+  border-radius: 205px;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
@@ -138,7 +138,7 @@ html {
 .img__description {
   transition: .2s;
   transform: translateY(1em);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .img__wrap:hover .img__description {

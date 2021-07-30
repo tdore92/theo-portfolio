@@ -20,7 +20,7 @@ function App() {
           <div className="has-text-centered">
 
             <h1 className="test name">THEO WYZGOWSKI</h1>
-            <h2 className="is-size-4 has-text-black">Junior Fullstack Software Developer</h2>
+            <h2 className="is-size-3 has-text-black">Junior Fullstack Software Developer</h2>
             <br />
 
 
