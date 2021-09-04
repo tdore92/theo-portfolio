@@ -135,6 +135,7 @@ function App() {
             </div>
 
             <div className="">
+              <a href="https://dinosaur-petshop.netlify.app/">
               <div className="column">
                 <h3 className="card-header-title text is-centered is-size-4">Dinosaur Petshop</h3>
                 <div className="image is-1by1 img__wrap grow">
@@ -144,6 +145,7 @@ function App() {
                   </div>
                 </div>
               </div>
+              </a>
               <a href="https://github.com/tdore92/project-4-server" alt="" target="_blank" rel="noopener noreferrer">
                 <div className="card-footer-item github-icon grow">
                   <i class="devicon-github-original"></i>
