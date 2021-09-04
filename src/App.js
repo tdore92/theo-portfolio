@@ -116,7 +116,7 @@ function App() {
 
             
             <div className="">
-              <a href="https://peaceful-kirch-51b165.netlify.app">
+              <a href="https://peaceful-kirch-51b165.netlify.app" alt="MontVenture Link" target="_blank" rel="noopener noreferrer">
               <div className="column">
                 <h3 className="card-header-title text is-centered is-size-4">MontVenture</h3>
                 <div className="img__wrap image is-1by1 grow">
@@ -135,7 +135,7 @@ function App() {
             </div>
 
             <div className="">
-              <a href="https://dinosaur-petshop.netlify.app/">
+              <a href="https://dinosaur-petshop.netlify.app/" alt="PetShop Link" target="_blank" rel="noopener noreferrer">
               <div className="column">
                 <h3 className="card-header-title text is-centered is-size-4">Dinosaur Petshop</h3>
                 <div className="image is-1by1 img__wrap grow">
