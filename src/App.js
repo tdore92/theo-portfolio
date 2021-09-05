@@ -141,7 +141,7 @@ function App() {
                 <div className="image is-1by1 img__wrap grow">
                   <img class="img__img project-images" src="https://i.imgur.com/I22et98.png" alt="Click Here!" />
                   <div class="img__description_layer">
-                    <p className="img__description has-text-centered">An online pet shop selling dinosaurs and assorted items. Uses a Python Django backend and a React front end.</p>
+                    <p className="img__description has-text-centered">An online pet shop selling dinosaurs and assorted items- login and list your own dino for sale. Uses a Python Django backend and a React front end.</p>
                   </div>
                 </div>
               </div>
