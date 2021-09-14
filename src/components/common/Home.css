@@ -145,4 +145,12 @@ html {
   transform: translateY(0);
 }
 
+.hero-card {
+  background-image: url(https://i.imgur.com/lIkrA6r.png);
+  background-size: cover;
+  border: 5px solid black;
+  height: 600px;
+  font-family: 'Potta One', cursive;
+}
+
 @import '~bulma/css/bulma.css';
