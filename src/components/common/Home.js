@@ -19,7 +19,7 @@ function Home() {
 
       {/* TOP SECTION*/}
       <body class="body-font">
-        <section className="section hero has-background">
+        <section className="section hero has-background has-background-white">
           <div className="has-text-centered">
 
             <h1 className="test name">THEO WYZGOWSKI</h1>
@@ -189,7 +189,7 @@ function Home() {
         </section>
 
         {/* CONTACT DETAILS */}
-        <section className="section">
+        <section className="section has-background-white">
           <div className="has-text-centered">
             <h2 className="is-size-2">Contact</h2>
             <hr/>

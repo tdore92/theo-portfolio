@@ -7,6 +7,12 @@
   font-size: 7em;
 }
 
+html {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
 .href-links {
   text-decoration:none;
   color: inherit;
@@ -148,5 +154,27 @@ html {
 .blog-font {
   font-family: 'Potta One', cursive;
 }
+
+.blog-image {
+  width:500px;
+  height: auto;
+  border: solid white 5px;
+  padding: 5px;  
+}
+
+.blog-image-figure {
+  float: right;
+  margin: 10px;
+  text-align: right;
+}
+
+.blog-profile-image {
+  height: 250px;
+  margin: 10px;
+  border: 5px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
 
 @import '~bulma/css/bulma.css';
