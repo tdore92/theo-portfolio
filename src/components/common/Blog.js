@@ -12,7 +12,7 @@ function Blog() {
           <header className="hero">
             <div className="hero-body container has-text-centered">
               <img className="blog-profile-image " src="https://i.imgur.com/dGTSlH5.jpg" alt="profile-mugshot" />
-              <h1 className="is-size-1 section">Theo Wyzgowski</h1>
+              <h1 className="is-size-1 section">The Book of Theodore</h1>
               <p>Welcome to my blog! This will mainly detail my journey developing my different projects in Javascript, React, Python and Node.js.</p>
             </div>
           </header>
