@@ -36,8 +36,7 @@ html {
 
 .flexbox-container {
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 .flexbox-container-projects {
@@ -152,13 +151,13 @@ html {
 }
 
 .blog-font {
-  font-family: 'Potta One', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .blog-image {
   width:500px;
   height: auto;
-  border: solid white 5px;
+  border: solid white 2px;
   padding: 5px;  
 }
 
@@ -166,14 +165,6 @@ html {
   float: right;
   margin: 10px;
   text-align: right;
-}
-
-.blog-profile-image {
-  height: 250px;
-  margin: 10px;
-  border: 5px solid white;
-  padding: 5px;
-  border-radius: 50%;
 }
 
 

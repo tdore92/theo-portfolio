@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    
+
     <div className="">
       <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />
@@ -27,8 +27,8 @@ function Home() {
             <br />
 
 
-            
-            
+
+
           </div>
         </section>
 
@@ -67,7 +67,7 @@ function Home() {
 
 
         {/* PROJECTS */}
-        <section className=" section has-background-white has-text-black">
+        <section className="section has-background-white has-text-black">
           <h1 class="has-text-centered is-size-2">Projects</h1>
           <br />
           <h2 className="box has-text-centered">These projects were created during my time on the General Assembly Software Engineering Immersive course. Hover over each project to discover more about it, and click to visit!</h2>
@@ -117,18 +117,18 @@ function Home() {
               </a>
             </div>
 
-            
+
             <div className="">
               <a href="https://peaceful-kirch-51b165.netlify.app" alt="MontVenture Link" target="_blank" rel="noopener noreferrer">
-              <div className="column">
-                <h3 className="card-header-title text is-centered is-size-4">MontVenture</h3>
-                <div className="img__wrap image is-1by1 grow">
-                  <img class="img__img project-images" src="https://i.imgur.com/RAvdPV4.png?1" alt="Click Here!" />
-                  <div class="img__description_layer">
-                    <p className="img__description has-text-centered">Search for UK based mountaineering activities with our MontVenture app. Created in 1 week with node.js, React.js and mongoDB.</p>
+                <div className="column">
+                  <h3 className="card-header-title text is-centered is-size-4">MontVenture</h3>
+                  <div className="img__wrap image is-1by1 grow">
+                    <img class="img__img project-images" src="https://i.imgur.com/RAvdPV4.png?1" alt="Click Here!" />
+                    <div class="img__description_layer">
+                      <p className="img__description has-text-centered">Search for UK based mountaineering activities with our MontVenture app. Created in 1 week with node.js, React.js and mongoDB.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
               </a>
               <a href="https://github.com/tdore92/project-3-server" alt="" target="_blank" rel="noopener noreferrer">
                 <div className="card-footer-item github-icon grow">
@@ -139,15 +139,15 @@ function Home() {
 
             <div className="">
               <a href="https://dinosaur-petshop.netlify.app/" alt="PetShop Link" target="_blank" rel="noopener noreferrer">
-              <div className="column">
-                <h3 className="card-header-title text is-centered is-size-4">Dinosaur Petshop</h3>
-                <div className="image is-1by1 img__wrap grow">
-                  <img class="img__img project-images" src="https://i.imgur.com/I22et98.png" alt="Click Here!" />
-                  <div class="img__description_layer">
-                    <p className="img__description has-text-centered">An online pet shop selling dinosaurs and assorted items- login and list your own dino for sale. Uses a Python Django backend and a React front end.</p>
+                <div className="column">
+                  <h3 className="card-header-title text is-centered is-size-4">Dinosaur Petshop</h3>
+                  <div className="image is-1by1 img__wrap grow">
+                    <img class="img__img project-images" src="https://i.imgur.com/I22et98.png" alt="Click Here!" />
+                    <div class="img__description_layer">
+                      <p className="img__description has-text-centered">An online pet shop selling dinosaurs and assorted items- login and list your own dino for sale. Uses a Python Django backend and a React front end.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
               </a>
               <a href="https://github.com/tdore92/project-4-server" alt="" target="_blank" rel="noopener noreferrer">
                 <div className="card-footer-item github-icon grow">
@@ -166,23 +166,26 @@ function Home() {
         <section className="section has-background-black has-text-white">
           <h1 className="has-text-centered is-size-2">My Interests</h1>
           <br />
-          <div className="columns flexbox-container section">
-            <div className="column is-one-third has-text-centered">
-              <a href="https://www.youtube.com/channel/UCaCnFiV6EODc_d2_vO9rDGw" alt="YT Link" target="_blank" rel="noopener noreferrer">
-                <img class="interests-icon grow" src="https://i.imgur.com/XuH59Y4.png" alt="YT Icon" />
-              </a>
-              <h2 className="is-size-5">Film &amp; Animation</h2>
-              <hr />
-              <p>I love to create animated works using Unreal Engine, Source Filmmaker and various other programs. Click the icon to find out more!</p>
+          <div className="columns">
+            <div className="section column is-half is-offset-one-quarter">
+              <div className="has-text-centered">
+                <a href="https://www.youtube.com/channel/UCaCnFiV6EODc_d2_vO9rDGw" alt="YT Link" target="_blank" rel="noopener noreferrer">
+                  <img class="interests-icon grow" src="https://i.imgur.com/XuH59Y4.png" alt="YT Icon" />
+                </a>
+                <h2 className="is-size-5">Film &amp; Animation</h2>
+                <hr />
+                <p>I love to create animated works using Unreal Engine, Source Filmmaker and various other programs. Click the icon to find out more!</p>
 
-            </div>
-            <div className="column is-one-third has-text-centered interests-box">
-              <Link to='/Blog'>
-                <img class="interests-icon grow" src="https://icons-for-free.com/iconfiles/png/512/blog+blogging+compose+resolutions+sign+write+icon-1320084094980840700.png" alt="Blog Icon" />
-              </Link>
-              <h2 className="is-size-5">Software Development</h2>
-              <hr />
-              <p>I'm currently developing other apps- click the above icon to follow their progress via my development blog!</p>
+              </div>
+              <br/>
+              <div className="has-text-centered interests-box">
+                <Link to='/Blog'>
+                  <img class="interests-icon grow" src="https://icons-for-free.com/iconfiles/png/512/blog+blogging+compose+resolutions+sign+write+icon-1320084094980840700.png" alt="Blog Icon" />
+                </Link>
+                <h2 className="is-size-5">Software Development</h2>
+                <hr />
+                <p>I'm currently developing other apps- click the above icon to follow their progress via my development blog!</p>
+              </div>
             </div>
           </div>
 
@@ -192,10 +195,10 @@ function Home() {
         <section className="section has-background-white">
           <div className="has-text-centered">
             <h2 className="is-size-2">Contact</h2>
-            <hr/>
+            <hr />
             <p className="is-size-3">theowyz@btinternet.com</p>
 
-            
+
 
             {/*Icon Links*/}
             <section class="flexbox-container">
@@ -212,7 +215,7 @@ function Home() {
           </div>
         </section>
 
-          
+
       </body>
     </div>
   )
