@@ -169,7 +169,7 @@ function Home() {
           <div className="columns flexbox-container section">
             <div className="column is-one-third has-text-centered">
               <a href="https://www.youtube.com/channel/UCaCnFiV6EODc_d2_vO9rDGw" alt="YT Link" target="_blank" rel="noopener noreferrer">
-                <img class="interests-icon grow" src="http://pngmesh.com/media/1616166067.png" alt="YT Icon" />
+                <img class="interests-icon grow" src="https://i.imgur.com/XuH59Y4.png" alt="YT Icon" />
               </a>
               <h2 className="is-size-5">Film &amp; Animation</h2>
               <hr />
