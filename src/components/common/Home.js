@@ -149,7 +149,7 @@ function Home() {
                   </div>
                 </div>
               </a>
-              <a href="https://github.com/tdore92/project-4-server" alt="" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/tdore92/project-4-server-2/blob/main/README.md" alt="" target="_blank" rel="noopener noreferrer">
                 <div className="card-footer-item github-icon grow">
                   <i class="devicon-github-original"></i>
                 </div>
