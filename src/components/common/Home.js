@@ -1,7 +1,6 @@
 
 import React from 'react';
 import './Home.css';
-import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -179,12 +178,12 @@ function Home() {
               </div>
               <br/>
               <div className="has-text-centered interests-box">
-                <Link to='/Blog'>
+                
                   <img class="interests-icon grow" src="https://icons-for-free.com/iconfiles/png/512/blog+blogging+compose+resolutions+sign+write+icon-1320084094980840700.png" alt="Blog Icon" />
-                </Link>
+                
                 <h2 className="is-size-5">Software Development</h2>
                 <hr />
-                <p>I'm currently developing other apps- click the above icon to follow their progress via my development blog!</p>
+                <p>I'm currently developing other apps- at the moment, a site that allows users to upload, browse and download motion capture data!</p>
               </div>
             </div>
           </div>
