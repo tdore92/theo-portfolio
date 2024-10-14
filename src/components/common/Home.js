@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import heroImage from "./images/theo_profile.jpg";
 
 function Home() {
   return (
@@ -35,246 +36,160 @@ function Home() {
 
         {/* ABOUT*/}
 
-        <section className=" section flexbox-container has-background-black">
-          <div className="flexbox-item flexbox-item-1 devicons has-text-white has-background-black">
-            <div class="devicon-div">
-              <i class="devicon-html5-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-css3-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-javascript-plain"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-bulma-plain"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-git-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-nodejs-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-react-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-github-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-python-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-mongodb-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-express-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-django-plain"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-postgresql-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-npm-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-vscode-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-sass-original"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-jquery-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-heroku-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-trello-plain-wordmark"></i>
+        <section className="section flexbox-container has-background-black">
+          <div className="flexbox-item flexbox-item-1 has-background-black">
+            <div className="hero-image-container">
+              <img src={heroImage} alt="profile" className="hero-image" />
             </div>
           </div>
 
           <div className="flexbox-item flexbox-item-2 has-text-centered has-text-white has-background-black">
-            <p className="is-size-4">
-              Previously working as a location sound recordist, I came across an
-              app developed by a fellow coworker, which sparked my interest in
-              software development. A year later, I enrolled at General
-              Assembly, learning full-stack JavaScript, HTML, CSS, Python and
-              React. With the course now completed, I’m excited to apply my
-              newfound technical abilities towards a creative end-goal whilst
-              learning from a team of experienced developers.
-            </p>
+            <div className="is-size-4">
+              <p>
+                Previously working as a location sound recordist, I came across
+                an app developed by a fellow coworker, which sparked my interest
+                in software development. A year later, I enrolled at General
+                Assembly, learning full-stack JavaScript, HTML, CSS, Python and
+                React.
+              </p>
+              <br />
+              <p>
+                With my most recent role at Evotix I have progressed from a
+                Graduate to Junior Developer level, and gained additional
+                abilities in C# and .NET development whilst working with an
+                experienced team to deliver sprint based, development-led
+                features.
+              </p>
+            </div>
           </div>
         </section>
 
         {/* PROJECTS */}
-        <section className="section has-background-white has-text-black">
-          <h1 class="has-text-centered is-size-2">Projects</h1>
+        <section className="section has-background-white has-text-black experience-section">
+          <div className="has-text-centered is-size-2">Experience</div>
           <br />
-          <h2 className="box has-text-centered">
-            These projects were created during my time on the General Assembly
-            Software Engineering Immersive course. Hover over each project to
-            discover more about it, and click to visit!
-          </h2>
-          <br />
-          <div className="flexbox-container-projects">
-            <div className="">
-              <a
-                href="https://tdore92.github.io/project-1/"
-                alt="MS Link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="column">
-                  <h3 className="card-header-title text is-centered is-size-4">
-                    Metroid Snake
-                  </h3>
-                  <div className="image is-1by1 img__wrap grow">
-                    <img
-                      class="img__img project-images"
-                      src="https://i.imgur.com/WlwChmr.png"
-                      alt="Click Here!"
-                    />
-                    <div class="img__description_layer">
-                      <p className="img__description has-text-centered">
-                        A Nintendo-themed variant of Snake. Defeat the Metroids,
-                        grow your army! Created in 1 week with HTML, CSS and
-                        JavaScript.
-                      </p>
-                    </div>
-                  </div>
+          <div className="experience-container">
+            <div className="experience-item">
+              <div>
+                <div className="is-size-3">Junior Software Engineer</div>
+                <div className="is-size-5">Evotix | May 22 - Oct 24</div>
+                <br />
+                <div className="is-size-5">
+                  Starting as a Graduate developer, I worked within a team
+                  focused primarily on the company product and provided
+                  development effort and met sprint goals using agile workflow.
+                  <br />
+                  In this role I was introduced to MVC and Razor development
+                  within the .NET framework. Across both my Graduate Engineer
+                  position and eventual promotion to Junior Engineer I worked on
+                  bug fixes and feature development, collaborating on and
+                  heading multiple projects. We made use of a combination of SQL
+                  Server and AWS for data file storage - utilising their APIs
+                  for specific work such as translations via the AWS Translate
+                  API. I handled multiple releases to production via Azure
+                  pipelines and demoed my features during company-wide
+                  presentations.
                 </div>
-              </a>
-              <a
-                href="https://github.com/tdore92/project-1"
-                alt=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="card-footer-item github-icon grow">
-                  <i class="devicon-github-original"></i>
+              </div>
+              <div className="experience-icons devicons">
+                <div class="devicon-div">
+                  <i class="devicon-html5-plain-wordmark"></i>
                 </div>
-              </a>
+                <div class="devicon-div">
+                  <i class="devicon-css3-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-javascript-plain"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-csharp-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-microsoftsqlserver-plain"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-dot-net-plain"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-jquery-plain-wordmark"></i>
+                </div>
+              </div>
             </div>
-
-            <div>
-              <a
-                href="https://ga-react-punk-api.netlify.app/"
-                alt="Brewdog Link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="">
-                  <div className="column">
-                    <div className="card-header-title text is-centered is-size-4">
-                      BrewDog
-                    </div>
-                    <div className="img__wrap image is-1by1 grow">
-                      <img
-                        class="img__img project-images"
-                        src="https://i.imgur.com/XdQ5x0g.png"
-                        alt="Click Here!"
-                      />
-                      <div class="img__description_layer">
-                        <p className="img__description has-text-centered">
-                          Browse BrewDogs wares on this React App, created in 48
-                          hours with a third party API and Axios requests.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <br />
+            <div className="experience-item">
+              <div className="experience-icons devicons">
+                <div class="devicon-div">
+                  <i class="devicon-html5-plain-wordmark"></i>
                 </div>
-              </a>
-              <a
-                href="https://github.com/tdore92/sei-project-2"
-                alt=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="card-footer-item github-icon grow">
-                  <i class="devicon-github-original"></i>
+                <div class="devicon-div">
+                  <i class="devicon-css3-plain-wordmark"></i>
                 </div>
-              </a>
-            </div>
-
-            <div className="">
-              <a
-                href="https://peaceful-kirch-51b165.netlify.app"
-                alt="MontVenture Link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="column">
-                  <h3 className="card-header-title text is-centered is-size-4">
-                    MontVenture
-                  </h3>
-                  <div className="img__wrap image is-1by1 grow">
-                    <img
-                      class="img__img project-images"
-                      src="https://i.imgur.com/RAvdPV4.png?1"
-                      alt="Click Here!"
-                    />
-                    <div class="img__description_layer">
-                      <p className="img__description has-text-centered">
-                        Search for UK based mountaineering activities with our
-                        MontVenture app. Created in 1 week with node.js,
-                        React.js and mongoDB.
-                      </p>
-                    </div>
-                  </div>
+                <div class="devicon-div">
+                  <i class="devicon-javascript-plain"></i>
                 </div>
-              </a>
-              <a
-                href="https://github.com/tdore92/project-3-server"
-                alt=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="card-footer-item github-icon grow">
-                  <i class="devicon-github-original"></i>
+                <div class="devicon-div">
+                  <i class="devicon-bulma-plain"></i>
                 </div>
-              </a>
-            </div>
-
-            <div className="">
-              <a
-                href="https://dinosaur-petshop.netlify.app/"
-                alt="PetShop Link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="column">
-                  <h3 className="card-header-title text is-centered is-size-4">
-                    Dinosaur Petshop
-                  </h3>
-                  <div className="image is-1by1 img__wrap grow">
-                    <img
-                      class="img__img project-images"
-                      src="https://i.imgur.com/I22et98.png"
-                      alt="Click Here!"
-                    />
-                    <div class="img__description_layer">
-                      <p className="img__description has-text-centered">
-                        An online pet shop selling dinosaurs and assorted items-
-                        login and list your own dino for sale. Uses a Python
-                        Django backend and a React front end.
-                      </p>
-                    </div>
-                  </div>
+                <div class="devicon-div">
+                  <i class="devicon-git-plain-wordmark"></i>
                 </div>
-              </a>
-              <a
-                href="https://github.com/tdore92/project-4-server-2/blob/main/README.md"
-                alt=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="card-footer-item github-icon grow">
-                  <i class="devicon-github-original"></i>
+                <div class="devicon-div">
+                  <i class="devicon-nodejs-plain-wordmark"></i>
                 </div>
-              </a>
+                <div class="devicon-div">
+                  <i class="devicon-react-original-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-github-original-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-python-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-mongodb-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-express-original-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-django-plain"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-postgresql-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-npm-original-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-vscode-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-sass-original"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-jquery-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-heroku-plain-wordmark"></i>
+                </div>
+                <div class="devicon-div">
+                  <i class="devicon-trello-plain-wordmark"></i>
+                </div>
+              </div>
+              <div>
+                <div className="is-size-3">Student</div>
+                <div className="is-size-5">
+                  General Assembly | April 21 - Jun 21
+                </div>
+                <br />
+                <div className="is-size-5">
+                  A 13 week remote immersive course that taught me the
+                  fundamentals of programming in various languages (JavaScript,
+                  React.js, HTML, and CSS), in which I learned to build
+                  full-stack apps as an individual and a team. Involved daily
+                  labs, stand-ups, and online lessons.
+                </div>
+              </div>
             </div>
           </div>
         </section>

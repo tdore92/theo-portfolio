@@ -51,8 +51,8 @@ html {
 }
 
 .devicons {
-  font-size: 5rem;
-  max-width: 600px;
+  font-size: 7rem;
+  max-width: 900px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -60,8 +60,8 @@ html {
 .devicon-div {
   border: 1px solid #ffffff;
   margin: 5px;
-  width: 100px;
-  height: 100px;
+  width: 50%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,5 +167,50 @@ html {
   text-align: right;
 }
 
+/* Experience section container */
+.experience-container {
+  display: flex;
+  flex-direction: column; /* Stacks the two items vertically */
+  gap: 2rem; /* Space between the two items */
+}
+
+/* Each experience section */
+.experience-item {
+  display: flex;
+  justify-content: space-between; /* Keep the space between text and icons */
+  align-items: center; /* Align content vertically */
+  padding: 20px;
+  background-color: #fff;
+  /* Removed box-shadow */
+}
+
+/* Text block and icons, each take 50% width */
+.experience-item > div {
+  flex-basis: 50%; /* Each div takes 50% of the row */
+}
+
+/* Text container */
+.experience-item > div:first-child {
+  display: flex;
+  flex-direction: column; /* Stack the h2, h3, and p vertically */
+  justify-content: flex-start; /* Align the text to the top */
+  align-items: flex-start; /* Align the text to the left */
+}
+
+/* Icons for the experience section */
+.experience-icons {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Center icons vertically */
+}
+
+.hero-image-container {
+  max-width: 50%;
+}
+
+.hero-image
+{
+  border-radius: 50%;
+}
 
 @import '~bulma/css/bulma.css';
