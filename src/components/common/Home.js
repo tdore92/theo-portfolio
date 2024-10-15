@@ -65,129 +65,79 @@ function Home() {
         </section>
 
         {/* PROJECTS */}
-        <section className="section has-background-white has-text-black experience-section">
+        <section className="section has-background-white has-text-black">
           <div className="has-text-centered is-size-2">Experience</div>
-          <br />
-          <div className="experience-container">
-            <div className="experience-item">
-              <div>
-                <div className="is-size-3">Junior Software Engineer</div>
-                <div className="is-size-5">Evotix | May 22 - Oct 24</div>
-                <br />
-                <div className="is-size-5">
-                  Starting as a Graduate developer, I worked within a team
-                  focused primarily on the company product and provided
-                  development effort and met sprint goals using agile workflow.
+          <div class="exp-section">
+            <div class="exp-column">
+              <div class="exp-row">
+                <div class="exp-part evotix">
+                  <div className="is-size-3">Junior Software Engineer</div>
+                  <div className="is-size-5">
+                    <i>Evotix | May 22 - Oct 24</i>
+                  </div>
                   <br />
-                  In this role I was introduced to MVC and Razor development
-                  within the .NET framework. Across both my Graduate Engineer
-                  position and eventual promotion to Junior Engineer I worked on
-                  bug fixes and feature development, collaborating on and
-                  heading multiple projects. We made use of a combination of SQL
-                  Server and AWS for data file storage - utilising their APIs
-                  for specific work such as translations via the AWS Translate
-                  API. I handled multiple releases to production via Azure
-                  pipelines and demoed my features during company-wide
-                  presentations.
+                  <div className="is-size-5">
+                    <div>
+                      Starting as a Graduate developer, I worked within a team
+                      focused primarily on the company product and provided
+                      development effort and met sprint goals using agile
+                      workflow.
+                    </div>
+                    <br />
+                    <div>
+                      In this role I was introduced to MVC and Razor development
+                      within the .NET framework. Across both my Graduate
+                      Engineer position and eventual promotion to Junior
+                      Engineer I worked on bug fixes and feature development,
+                      collaborating on and heading multiple projects. We made
+                      use of a combination of SQL Server and AWS for data file
+                      storage - utilising their APIs for specific work such as
+                      translations via the AWS Translate API. I handled multiple
+                      releases to production via Azure pipelines and demoed my
+                      features during company-wide presentations.
+                    </div>
+                  </div>
+                </div>
+                <div class="exp-part devicons devicons-container">
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>
+                  <i class="devicon-python-plain colored"></i>
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <i class="devicon-react-original colored"></i>
+                  <i class="devicon-git-plain colored"></i>
+                  <i class="devicon-github-original"></i>
+                  <i class="devicon-bootstrap-plain colored"></i>
                 </div>
               </div>
-              <div className="experience-icons devicons">
-                <div class="devicon-div">
-                  <i class="devicon-html5-plain-wordmark"></i>
+
+              <div class="exp-row">
+                <div class="exp-part devicons-container">
+                  <i class="devicon-html5-plain colored"></i>
+                  <i class="devicon-css3-plain colored"></i>
+                  <i class="devicon-javascript-plain colored"></i>
+                  <i class="devicon-python-plain colored"></i>
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <i class="devicon-react-original colored"></i>
+                  <i class="devicon-git-plain colored"></i>
+                  <i class="devicon-github-original"></i>
+                  <i class="devicon-bootstrap-plain colored"></i>
                 </div>
-                <div class="devicon-div">
-                  <i class="devicon-css3-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-javascript-plain"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-csharp-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-microsoftsqlserver-plain"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-dot-net-plain"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-jquery-plain-wordmark"></i>
-                </div>
-              </div>
-            </div>
-            <br />
-            <div className="experience-item">
-              <div className="experience-icons devicons">
-                <div class="devicon-div">
-                  <i class="devicon-html5-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-css3-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-javascript-plain"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-bulma-plain"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-git-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-nodejs-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-react-original-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-github-original-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-python-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-mongodb-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-express-original-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-django-plain"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-postgresql-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-npm-original-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-vscode-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-sass-original"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-jquery-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-heroku-plain-wordmark"></i>
-                </div>
-                <div class="devicon-div">
-                  <i class="devicon-trello-plain-wordmark"></i>
-                </div>
-              </div>
-              <div>
-                <div className="is-size-3">Student</div>
-                <div className="is-size-5">
-                  General Assembly | April 21 - Jun 21
-                </div>
-                <br />
-                <div className="is-size-5">
-                  A 13 week remote immersive course that taught me the
-                  fundamentals of programming in various languages (JavaScript,
-                  React.js, HTML, and CSS), in which I learned to build
-                  full-stack apps as an individual and a team. Involved daily
-                  labs, stand-ups, and online lessons.
+                <div class="exp-part student">
+                  <div className="is-size-3">Student</div>
+                  <div className="is-size-5">
+                    <i>General Assembly | April 21 - Jun 21</i>
+                  </div>
+                  <br />
+                  <div className="is-size-5">
+                    <div>
+                      A 13 week remote immersive course that taught me the
+                      fundamentals of programming in various languages
+                      (JavaScript, React.js, HTML, and CSS), in which I learned
+                      to build full-stack apps as an individual and a team.
+                      Involved daily labs, stand-ups, and online lessons.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

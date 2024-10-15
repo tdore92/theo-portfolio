@@ -168,41 +168,62 @@ html {
 }
 
 /* Experience section container */
-.experience-container {
+
+.exp-section {
   display: flex;
-  flex-direction: column; /* Stacks the two items vertically */
-  gap: 2rem; /* Space between the two items */
+  justify-content: center;
+  align-items: center;
 }
 
-/* Each experience section */
-.experience-item {
+.exp-column {
   display: flex;
-  justify-content: space-between; /* Keep the space between text and icons */
-  align-items: center; /* Align content vertically */
+  flex-direction: column;
+  width: 95%;
+  padding: 10px;
+}
+
+.exp-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.exp-part {
+  flex: 1;
+  margin: 0 10px;
   padding: 20px;
-  background-color: #fff;
-  /* Removed box-shadow */
 }
 
-/* Text block and icons, each take 50% width */
-.experience-item > div {
-  flex-basis: 50%; /* Each div takes 50% of the row */
+.evotix
+{
+  text-align: left;
 }
 
-/* Text container */
-.experience-item > div:first-child {
+.student
+{
+  text-align: right;
+}
+
+.exp-part:first-child {
+  margin-left: 0;
+}
+
+.exp-part:last-child {
+  margin-right: 0;
+}
+
+.devicons-container {
   display: flex;
-  flex-direction: column; /* Stack the h2, h3, and p vertically */
-  justify-content: flex-start; /* Align the text to the top */
-  align-items: flex-start; /* Align the text to the left */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Align items at the top */
+  max-width: 500px;
 }
 
-/* Icons for the experience section */
-.experience-icons {
-  display: flex;
-  justify-content: center; /* Center icons horizontally */
-  align-items: center; /* Center icons vertically */
+.devicons-container i {
+  font-size: 100px;
 }
+
 
 .hero-image-container {
   max-width: 50%;
