@@ -74,6 +74,17 @@ function Home() {
                   <div className="is-size-3">Junior Software Engineer</div>
                   <div className="is-size-5">
                     <i>Evotix | May 22 - Oct 24</i>
+                    <div class="devicons">
+                      <i class="devicon-html5-plain"></i>
+                      <i class="devicon-css3-plain"></i>
+                      <i class="devicon-javascript-plain"></i>
+                      <i class="devicon-csharp-plain-wordmark"></i>
+                      <i class="devicon-microsoftsqlserver-plain"></i>
+                      <i class="devicon-dot-net-plain"></i>
+                      <i class="devicon-amazonwebservices-plain-wordmark"></i>
+
+                      <i class="devicon-visualstudio-plain"></i>
+                    </div>
                   </div>
                   <br />
                   <div className="is-size-5">
@@ -98,35 +109,44 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div class="exp-part devicons devicons-container">
-                  <i class="devicon-html5-plain colored"></i>
-                  <i class="devicon-css3-plain colored"></i>
-                  <i class="devicon-javascript-plain colored"></i>
-                  <i class="devicon-python-plain colored"></i>
-                  <i class="devicon-nodejs-plain colored"></i>
-                  <i class="devicon-react-original colored"></i>
-                  <i class="devicon-git-plain colored"></i>
-                  <i class="devicon-github-original"></i>
-                  <i class="devicon-bootstrap-plain colored"></i>
-                </div>
+                <div class="exp-part devicons devicons-container"></div>
               </div>
-
+              <br />
               <div class="exp-row">
-                <div class="exp-part devicons-container">
-                  <i class="devicon-html5-plain colored"></i>
-                  <i class="devicon-css3-plain colored"></i>
-                  <i class="devicon-javascript-plain colored"></i>
-                  <i class="devicon-python-plain colored"></i>
-                  <i class="devicon-nodejs-plain colored"></i>
-                  <i class="devicon-react-original colored"></i>
-                  <i class="devicon-git-plain colored"></i>
-                  <i class="devicon-github-original"></i>
-                  <i class="devicon-bootstrap-plain colored"></i>
-                </div>
+                <div class="exp-part devicons-container"></div>
                 <div class="exp-part student">
                   <div className="is-size-3">Student</div>
                   <div className="is-size-5">
                     <i>General Assembly | April 21 - Jun 21</i>
+                  </div>
+                  <div class="devicons">
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+
+                    <i class="devicon-bulma-plain"></i>
+
+                    <i class="devicon-git-plain"></i>
+
+                    <i class="devicon-nodejs-plain"></i>
+
+                    <i class="devicon-react-original"></i>
+
+                    <i class="devicon-github-original"></i>
+
+                    <i class="devicon-python-plain"></i>
+
+                    <i class="devicon-mongodb-plain"></i>
+
+                    <i class="devicon-django-plain"></i>
+
+                    <i class="devicon-postgresql-plain"></i>
+
+                    <i class="devicon-npm-original-wordmark"></i>
+
+                    <i class="devicon-vscode-plain"></i>
+
+                    <i class="devicon-sass-original"></i>
                   </div>
                   <br />
                   <div className="is-size-5">

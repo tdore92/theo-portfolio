@@ -51,10 +51,12 @@ html {
 }
 
 .devicons {
-  font-size: 7rem;
-  max-width: 900px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 2.5rem;
+  padding: 20px 0px 0px 0px;
+}
+
+.devicons i {
+  padding: 5px;
 }
 
 .devicon-div {
@@ -217,13 +219,8 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; /* Align items at the top */
-  max-width: 500px;
+  max-width: 300px;
 }
-
-.devicons-container i {
-  font-size: 100px;
-}
-
 
 .hero-image-container {
   max-width: 50%;
@@ -231,7 +228,14 @@ html {
 
 .hero-image
 {
+  width: 350px; /* Set this value to what you want the diameter to be */
+  height: 350px; /* Ensure the height and width are equal */
+  object-fit: cover;
   border-radius: 50%;
+}
+
+.azure {
+  background-color: black;
 }
 
 @import '~bulma/css/bulma.css';
