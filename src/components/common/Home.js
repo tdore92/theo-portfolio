@@ -16,6 +16,10 @@ function Home() {
           href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+          rel="stylesheet"
+        ></link>
         <script
           src="https://kit.fontawesome.com/4fb58de0f3.js"
           crossorigin="anonymous"
@@ -37,9 +41,78 @@ function Home() {
         {/* ABOUT*/}
 
         <section className="section flexbox-container has-background-black">
-          <div className="flexbox-item flexbox-item-1 has-background-black">
-            <div className="hero-image-container">
-              <img src={heroImage} alt="profile" className="hero-image" />
+          <div className="flexbox-item flexbox-item-1 devicons-about has-text-white has-background-black">
+            <div class="devicon-div">
+              <i class="devicon-html5-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-css3-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-javascript-plain"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-bulma-plain"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-git-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-nodejs-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-react-original-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-github-original-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-python-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-mongodb-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-express-original-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-django-plain"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-postgresql-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-npm-original-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-vscode-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-sass-original"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-jquery-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-heroku-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-trello-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-csharp-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-dot-net-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-amazonwebservices-plain-wordmark"></i>
+            </div>
+            <div class="devicon-div">
+              <i class="devicon-visualstudio-plain"></i>
             </div>
           </div>
 
@@ -183,13 +256,13 @@ function Home() {
                     alt="YT Icon"
                   />
                 </a>
-                <h2 className="is-size-5">Film &amp; Animation</h2>
+                <h2 className="is-size-4">Film &amp; Animation</h2>
                 <hr />
-                <p>
+                <div className="is-size-5">
                   I love to create animated works using Unreal Engine, Source
                   Filmmaker and various other programs. Click the icon to find
                   out more!
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -199,12 +272,18 @@ function Home() {
         <section className="section has-background-white">
           <div className="has-text-centered">
             <h2 className="is-size-2">Contact</h2>
-            <hr />
-            <p className="is-size-3">theowyz@btinternet.com</p>
+            <div className="hero-image-container">
+              <img src={heroImage} alt="profile" className="hero-image" />
+            </div>
 
             {/*Icon Links*/}
             <section class="flexbox-container">
-              <div className="devicons level">
+              <div className="contact-icons">
+                <div className="grow">
+                  <a href="mailto: theowyz@btinternet.com">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
                 <div class="grow">
                   <a
                     href="https://www.linkedin.com/in/theo-wyzgowski-66191a205/"

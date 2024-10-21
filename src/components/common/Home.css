@@ -59,11 +59,18 @@ html {
   padding: 5px;
 }
 
+.devicons-about {
+  font-size: 4rem;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .devicon-div {
   border: 1px solid #ffffff;
   margin: 5px;
-  width: 50%;
-  height: 70%;
+  width: 100px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,19 +230,35 @@ html {
 }
 
 .hero-image-container {
-  max-width: 50%;
+  align-items: center;
+  padding:  30px 0 20px 0;
 }
 
 .hero-image
 {
-  width: 350px; /* Set this value to what you want the diameter to be */
-  height: 350px; /* Ensure the height and width are equal */
+  width: 200px; /* Set this value to what you want the diameter to be */
+  height: 200px; /* Ensure the height and width are equal */
   object-fit: cover;
   border-radius: 50%;
+  border: 5px solid black;
 }
 
 .azure {
   background-color: black;
 }
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons a i {
+  font-size: 3rem;
+  padding: 20px;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 @import '~bulma/css/bulma.css';
