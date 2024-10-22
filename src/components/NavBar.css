@@ -1,0 +1,49 @@
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar-item {
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+
+.navbar-link::before,
+.navbar-link::after {
+  display: none !important;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  background: none;
+  color: #333;
+  outline: none;
+  box-shadow: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .navbar-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-link {
+    font-size: 14px;
+  }
+
+}

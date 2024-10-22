@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import heroImage from "./images/theo_profile.jpg";
+import NavBar from "../NavBar";
+import "../NavBar.css";
 
 function Home() {
   return (
@@ -36,11 +38,17 @@ function Home() {
             </h2>
             <br />
           </div>
+          <div className="navbar-container">
+            <NavBar />
+          </div>
         </section>
 
         {/* ABOUT*/}
 
-        <section className="section flexbox-container has-background-black">
+        <section
+          id="about"
+          className="section flexbox-container has-background-black"
+        >
           <div className="flexbox-item flexbox-item-1 devicons-about has-text-white has-background-black">
             <div class="devicon-div">
               <i class="devicon-html5-plain-wordmark"></i>
@@ -138,7 +146,10 @@ function Home() {
         </section>
 
         {/* PROJECTS */}
-        <section className="section has-background-white has-text-black">
+        <section
+          id="experience"
+          className="section has-background-white has-text-black"
+        >
           <div className="has-text-centered is-size-2">Experience</div>
           <div class="exp-section">
             <div class="exp-column">
@@ -238,7 +249,10 @@ function Home() {
         </section>
 
         {/* INTERESTS */}
-        <section className="section has-background-black has-text-white">
+        <section
+          id="interests"
+          className="section has-background-black has-text-white"
+        >
           <h1 className="has-text-centered is-size-2">My Interests</h1>
           <br />
           <div className="columns">
@@ -269,7 +283,7 @@ function Home() {
         </section>
 
         {/* CONTACT DETAILS */}
-        <section className="section has-background-white">
+        <section id="contact" className="section has-background-white">
           <div className="has-text-centered">
             <h2 className="is-size-2">Contact</h2>
             <div className="hero-image-container">

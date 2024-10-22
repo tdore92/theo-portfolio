@@ -260,5 +260,13 @@ html {
   vertical-align: middle;
 }
 
+.navbar-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
 
 @import '~bulma/css/bulma.css';
