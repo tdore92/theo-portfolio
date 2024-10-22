@@ -283,6 +283,7 @@ function Home() {
                   <a href="mailto: theowyz@btinternet.com">
                     <i class="fa fa-envelope"></i>
                   </a>
+                  Email
                 </div>
                 <div class="grow">
                   <a
@@ -292,6 +293,7 @@ function Home() {
                   >
                     <i class="devicon-linkedin-plain"></i>
                   </a>
+                  LinkedIn
                 </div>
 
                 <div class="grow">
@@ -302,6 +304,7 @@ function Home() {
                   >
                     <i class="devicon-github-original"></i>
                   </a>
+                  GitHub
                 </div>
               </div>
             </section>
