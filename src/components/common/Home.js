@@ -30,16 +30,16 @@ function Home() {
 
       {/* TOP SECTION*/}
       <body class="body-font">
-        <section className="section hero has-background has-background-white">
-          <div className="has-text-centered">
+        <section className="section has-background has-background-white">
+          <div className="banner-container">
             <h1 className="test name">THEO WYZGOWSKI</h1>
             <h2 className="is-size-3 has-text-black">
               Junior Software Engineer
             </h2>
             <br />
-          </div>
-          <div className="navbar-container">
-            <NavBar />
+            <div className="navbar-container">
+              <NavBar />
+            </div>
           </div>
         </section>
 
@@ -47,7 +47,7 @@ function Home() {
 
         <section
           id="about"
-          className="section flexbox-container has-background-black"
+          className="section about flexbox-container has-background-black"
         >
           <div className="flexbox-item flexbox-item-1 devicons-about has-text-white has-background-black">
             <div class="devicon-div">
@@ -191,7 +191,7 @@ function Home() {
                     <div class="languages-header">Version Control</div>
                     <div class="languages-text">Azure Devops</div>
                     <div class="languages-header">Testing</div>
-                    <div class="languages-text">Jest</div>
+                    <div class="languages-text">xUnit</div>
                   </div>
                 </div>
               </div>
