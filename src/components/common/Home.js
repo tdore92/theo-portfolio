@@ -156,19 +156,9 @@ function Home() {
               <div class="exp-row">
                 <div class="exp-part evotix">
                   <div className="is-size-3">Junior Software Engineer</div>
+
                   <div className="is-size-5">
                     <i>Evotix | May 22 - Oct 24</i>
-                    <div class="devicons">
-                      <i class="devicon-html5-plain"></i>
-                      <i class="devicon-css3-plain"></i>
-                      <i class="devicon-javascript-plain"></i>
-                      <i class="devicon-csharp-plain-wordmark"></i>
-                      <i class="devicon-microsoftsqlserver-plain"></i>
-                      <i class="devicon-dot-net-plain"></i>
-                      <i class="devicon-amazonwebservices-plain-wordmark"></i>
-
-                      <i class="devicon-visualstudio-plain"></i>
-                    </div>
                   </div>
                   <br />
                   <div className="is-size-5">
@@ -184,53 +174,50 @@ function Home() {
                       within the .NET framework. Across both my Graduate
                       Engineer position and eventual promotion to Junior
                       Engineer I worked on bug fixes and feature development,
-                      collaborating on and heading multiple projects. We made
-                      use of a combination of SQL Server and AWS for data file
-                      storage - utilising their APIs for specific work such as
-                      translations via the AWS Translate API. I handled multiple
-                      releases to production via Azure pipelines and demoed my
-                      features during company-wide presentations.
+                      collaborating on and heading multiple projects. I handled
+                      regular releases to production via Azure pipelines and
+                      demoed my features during company-wide presentations.
                     </div>
                   </div>
                 </div>
-                <div class="exp-part devicons devicons-container"></div>
+                <div class="exp-part languages">
+                  <div class="languages-container is-size-6">
+                    <div class="languages-header">Frontend</div>
+                    <div class="languages-text">
+                      JavaScript, CSS, HTML, Razor
+                    </div>
+                    <div class="languages-header">Back End</div>
+                    <div class="languages-text">C#, SQL, .Net</div>
+                    <div class="languages-header">Version Control</div>
+                    <div class="languages-text">Azure Devops</div>
+                    <div class="languages-header">Testing</div>
+                    <div class="languages-text">Jest</div>
+                  </div>
+                </div>
               </div>
-              <br />
-              <div class="exp-row">
-                <div class="exp-part devicons-container"></div>
+              <div className="exp-row">
+                <div class="exp-part languages">
+                  <div class="languages-container is-size-6 student">
+                    <div class="languages-header">Frontend</div>
+                    <div class="languages-text">
+                      JavaScript, HTML/CSS, React, Sass, Bulma, Razor, JQuery,
+                      AJAX
+                    </div>
+                    <div class="languages-header">Back End</div>
+                    <div class="languages-text">
+                      MongoDB, Mongoose, Express, Node.js, Python, Django, NPM,
+                      mySQL, TablePlus
+                    </div>
+                    <div class="languages-header">Version Control</div>
+                    <div class="languages-text">Git, GitHub, Heroku</div>
+                    <div class="languages-header">Testing</div>
+                    <div class="languages-text">Jest</div>
+                  </div>
+                </div>
                 <div class="exp-part student">
                   <div className="is-size-3">Student</div>
                   <div className="is-size-5">
                     <i>General Assembly | April 21 - Jun 21</i>
-                  </div>
-                  <div class="devicons">
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
-
-                    <i class="devicon-bulma-plain"></i>
-
-                    <i class="devicon-git-plain"></i>
-
-                    <i class="devicon-nodejs-plain"></i>
-
-                    <i class="devicon-react-original"></i>
-
-                    <i class="devicon-github-original"></i>
-
-                    <i class="devicon-python-plain"></i>
-
-                    <i class="devicon-mongodb-plain"></i>
-
-                    <i class="devicon-django-plain"></i>
-
-                    <i class="devicon-postgresql-plain"></i>
-
-                    <i class="devicon-npm-original-wordmark"></i>
-
-                    <i class="devicon-vscode-plain"></i>
-
-                    <i class="devicon-sass-original"></i>
                   </div>
                   <br />
                   <div className="is-size-5">

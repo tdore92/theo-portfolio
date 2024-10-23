@@ -69,8 +69,8 @@ html {
 .devicon-div {
   border: 1px solid #ffffff;
   margin: 5px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,20 +187,46 @@ html {
 .exp-column {
   display: flex;
   flex-direction: column;
-  width: 95%;
   padding: 10px;
 }
 
 .exp-row {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  justify-content: center; /* Center the parts horizontally */
+  gap: 20px; /* Add space between the parts */
+  align-items: center;
+  padding: 10px;
 }
 
 .exp-part {
-  flex: 1;
-  margin: 0 10px;
+  flex: 0 0 auto; /* Prevent the parts from growing or shrinking */
+  width: auto; /* Keep the width based on content */
   padding: 20px;
+  max-width: 45%; /* Optional: set a max width if needed */
+}
+
+.languages
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages-container {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+}
+
+.languages-header
+{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
 }
 
 .evotix
@@ -211,14 +237,6 @@ html {
 .student
 {
   text-align: right;
-}
-
-.exp-part:first-child {
-  margin-left: 0;
-}
-
-.exp-part:last-child {
-  margin-right: 0;
 }
 
 .devicons-container {
