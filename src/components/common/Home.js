@@ -45,102 +45,101 @@ function Home() {
 
         {/* ABOUT*/}
 
-        <section
-          id="about"
-          className="section about flexbox-container has-background-black"
-        >
-          <div className="flexbox-item flexbox-item-1 devicons-about has-text-white has-background-black">
-            <div class="devicon-div">
-              <i class="devicon-html5-plain-wordmark"></i>
+        <section id="about" className="section  has-background-black">
+          <div className="about flexbox-container">
+            <div className="devicons-about has-text-white has-background-black">
+              <div class="devicon-div">
+                <i class="devicon-html5-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-css3-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-javascript-plain"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-bulma-plain"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-git-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-nodejs-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-react-original-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-github-original-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-python-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-mongodb-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-express-original-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-django-plain"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-postgresql-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-npm-original-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-vscode-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-sass-original"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-jquery-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-heroku-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-trello-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-csharp-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-dot-net-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+              </div>
+              <div class="devicon-div">
+                <i class="devicon-visualstudio-plain"></i>
+              </div>
             </div>
-            <div class="devicon-div">
-              <i class="devicon-css3-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-javascript-plain"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-bulma-plain"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-git-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-nodejs-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-react-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-github-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-python-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-mongodb-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-express-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-django-plain"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-postgresql-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-npm-original-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-vscode-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-sass-original"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-jquery-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-heroku-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-trello-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-csharp-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-dot-net-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-amazonwebservices-plain-wordmark"></i>
-            </div>
-            <div class="devicon-div">
-              <i class="devicon-visualstudio-plain"></i>
-            </div>
-          </div>
 
-          <div className="flexbox-item flexbox-item-2 has-text-centered has-text-white has-background-black">
-            <div className="is-size-4">
-              <p>
-                Previously working as a location sound recordist, I came across
-                an app developed by a fellow coworker, which sparked my interest
-                in software development. A year later, I enrolled at General
-                Assembly, learning full-stack JavaScript, HTML, CSS, Python and
-                React.
-              </p>
-              <br />
-              <p>
-                With my most recent role at Evotix I have progressed from a
-                Graduate to Junior Developer level, and gained additional
-                abilities in C# and .NET development whilst working with an
-                experienced team to deliver sprint based, development-led
-                features.
-              </p>
+            <div className="flexbox-item flexbox-item-2 has-text-centered has-text-white has-background-black">
+              <div className="is-size-5">
+                <p>
+                  Previously working as a location sound recordist, I came
+                  across an app developed by a fellow coworker, which sparked my
+                  interest in software development. A year later, I enrolled at
+                  General Assembly, learning full-stack JavaScript, HTML, CSS,
+                  Python and React.
+                </p>
+                <br />
+                <p>
+                  With my most recent role at Evotix I have progressed from a
+                  Graduate to Junior Developer level, and gained additional
+                  abilities in C# and .NET development whilst working with an
+                  experienced team to deliver sprint based, development-led
+                  features.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -155,9 +154,9 @@ function Home() {
             <div class="exp-column">
               <div class="exp-row">
                 <div class="exp-part evotix">
-                  <div className="is-size-3">Junior Software Engineer</div>
+                  <div className="is-size-4">Junior Software Engineer</div>
 
-                  <div className="is-size-5">
+                  <div className="is-size-6">
                     <i>Evotix | May 22 - Oct 24</i>
                   </div>
                   <br />
@@ -183,11 +182,11 @@ function Home() {
                 <div class="exp-part languages">
                   <div class="languages-container is-size-6">
                     <div class="languages-header">Frontend</div>
-                    <div class="languages-text">
-                      JavaScript, CSS, HTML, Razor
-                    </div>
+                    <div class="languages-text">JavaScript, CSS, HTML</div>
                     <div class="languages-header">Back End</div>
-                    <div class="languages-text">C#, SQL, .Net</div>
+                    <div class="languages-text">
+                      C#, SQL, .NET, ASP.NET Core{" "}
+                    </div>
                     <div class="languages-header">Version Control</div>
                     <div class="languages-text">Azure Devops</div>
                     <div class="languages-header">Testing</div>
@@ -215,8 +214,8 @@ function Home() {
                   </div>
                 </div>
                 <div class="exp-part student">
-                  <div className="is-size-3">Student</div>
-                  <div className="is-size-5">
+                  <div className="is-size-4">Student</div>
+                  <div className="is-size-6">
                     <i>General Assembly | April 21 - Jun 21</i>
                   </div>
                   <br />
@@ -240,11 +239,12 @@ function Home() {
           id="interests"
           className="section has-background-black has-text-white"
         >
-          <h1 className="has-text-centered is-size-2">My Interests</h1>
-          <br />
-          <div className="columns">
-            <div className="section column is-half is-offset-one-quarter">
-              <div className="has-text-centered">
+          <div className="interests-header-container">
+            <div className="is-size-2">My Interests</div>
+          </div>
+          <div className="interests">
+            <div className="interests-container">
+              <div className="interests-icon-container">
                 <a
                   href="https://www.youtube.com/channel/UCaCnFiV6EODc_d2_vO9rDGw"
                   alt="YT Link"
@@ -257,13 +257,13 @@ function Home() {
                     alt="YT Icon"
                   />
                 </a>
-                <h2 className="is-size-4">Film &amp; Animation</h2>
-                <hr />
-                <div className="is-size-5">
-                  I love to create animated works using Unreal Engine, Source
-                  Filmmaker and various other programs. Click the icon to find
-                  out more!
-                </div>
+              </div>
+              <h2 className="is-size-4">Film &amp; Animation</h2>
+              <br />
+              <div className="is-size-5">
+                I love to create animated works using Unreal Engine, Source
+                Filmmaker and various other programs. Click the icon to find out
+                more!
               </div>
             </div>
           </div>
@@ -271,8 +271,8 @@ function Home() {
 
         {/* CONTACT DETAILS */}
         <section id="contact" className="section has-background-white">
-          <div className="has-text-centered">
-            <h2 className="is-size-2">Contact</h2>
+          <div className="has-text-centered contact">
+            <div className="is-size-2">Contact</div>
             <div className="hero-image-container">
               <img src={heroImage} alt="profile" className="hero-image" />
             </div>

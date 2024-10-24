@@ -1,19 +1,15 @@
-
-import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './components/common/Home'
-import Blog from './components/common/Blog'
-
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./components/common/Home";
 
 function App() {
-  return (   
+  return (
     <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/Blog" component={Blog} />
+      <Switch>
+        <Route exact path="/" component={Home} />
       </Switch>
-      </BrowserRouter>
-  )
+    </BrowserRouter>
+  );
 }
 
 export default App;
